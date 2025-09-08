@@ -64,11 +64,11 @@ This project aims to develop and compare artificial neural network (ANN) and con
 
 ## 📈 Model Performance Summary  
 
-| Model Type        | Input Size | Epochs | Test Accuracy (%) | Notes                                   |  
-|-------------------|------------|--------|-------------------|-----------------------------------------|  
-| ANN (Simple)      | 64x64      | 5      | ~50               | Poor learning, accuracy near chance level |  
-| CNN               | 128x128    | 15     | ~91               | Good performance with dropout regularization |  
-| Transfer Learning (MobileNetV2) | 128x128 (resized to 224x224) | 15     | ~98               | Best accuracy with pretrained features |  
+| Model Type        | Input Size | Test Accuracy (%) | Notes                                   |  
+|-------------------|------------|-------------------|-----------------------------------------|  
+| ANN               | 64x64      | ~50               | Poor learning, accuracy near chance level |  
+| CNN               | 128x128    | ~91               | Good performance with dropout regularization |  
+| Transfer Learning (MobileNetV2) | 128x128 (resized to 224x224) | ~98               | Best accuracy with pretrained features |  
 
 **Conclusions:**  
 - The simple ANN model failed to learn effectively, indicated by unstable loss and near 50% accuracy.  
