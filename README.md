@@ -1,13 +1,13 @@
 # **Comparative Analysis of ANN and CNN Models for Leaf Pest Detection on Vegetable Images**  
 
 ## 📱 About the Project  
-This project aims to develop and compare artificial neural network (ANN) and convolutional neural network (CNN) models to classify images of sawi vegetable leaves as either affected by pests or not. The goal is to build models that can accurately detect pest infestation from images, utilizing a dataset of leaf images with and without pests. The task focuses on binary classification to support agricultural pest management.  
+This project aims to develop and compare artificial neural network (ANN) and convolutional neural network (CNN) models to classify images of vegetable leaves as either affected by pests or not. The goal is to build models that can accurately detect pest infestation from images, utilizing a dataset of leaf images with and without pests. The task focuses on binary classification to support agricultural pest management.  
 
 ---  
 
 ## 🎙 Dataset  
 - **Source:**  
-  - Image dataset of sawi leaves with two categories: "With Pest" and "Without Pest" 
+  - Image dataset of leaves with two categories: "With Pest" and "Without Pest" 
   - Dataset subdivided into training and validation sets, with image counts ranging from 199 to 800 per set depending on experiments.
     
 ---  
